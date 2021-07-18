@@ -1,5 +1,7 @@
 package com.javanote.cs.stackandqueue;
-
+/*
+Array로 Stack 구현
+ */
 public class ArrayStack {
 
     private int top;        //Stack 최상단. 포인터
