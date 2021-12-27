@@ -49,7 +49,6 @@ public class BinarySearchTree {
 
     //  이진검색트리 : search
     public Node search(Node root, int key) {
-        //  root부터 시작
         
         //  tree가 비어있거나, 찾는 값이 root와 같은 경우
         if (key == root.key || root == null) {

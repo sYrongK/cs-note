@@ -70,14 +70,14 @@ public class LinkedListTest {
         System.out.println();
 
         System.out.print("Print iterator :: ");
-                Iterator<String> iterator = list.iterator();
+        Iterator<String> iterator = list.iterator();
         while(iterator.hasNext()) {
             System.out.print(iterator.next() + " ");
         }
         System.out.println();
 
         System.out.print("Print listIterator :: ");
-                ListIterator<String> listIterator = list.listIterator(list.size());
+        ListIterator<String> listIterator = list.listIterator(list.size());
         while (listIterator.hasPrevious()) {
             System.out.print(listIterator.previous() + " ");
         }

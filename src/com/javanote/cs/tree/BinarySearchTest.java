@@ -26,10 +26,10 @@ public class BinarySearchTest {
 
     }
 
-    public static Integer search(Integer[] arr, Integer key) {
+    public static Integer search(Integer[] arr, int key) {
 
         //  배열의 중간값의 index
-        Integer medium = arr.length/ 2;
+        int medium = arr.length/ 2;
 
         if (key < arr[medium]) {
             for (int i = 0; i < medium; i++) {
